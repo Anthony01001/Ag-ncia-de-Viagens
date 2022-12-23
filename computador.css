@@ -1,0 +1,326 @@
+@charset "UTF-8";
+ @media screen and (min-width: 849px) {
+     *{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+     }
+     body{
+      background-color: rgba(169, 169, 169, 0.164);
+
+     }
+     
+   
+       header{
+        width: 100vw;
+        height: 400px;
+        background: url(pexels-asad-photo-maldives-3155666.jpg);
+        background-size:cover;
+        background-position: center center;
+        margin-bottom: -2px;
+
+  } 
+  header > input{
+    width: 50vw;
+    transform: translate(370px, 250px);
+    border-radius: 15px;
+    font-size: 25px;
+    text-indent: 0px;
+    box-shadow: 2px 2px 7px black;
+  }
+ 
+    
+   .imgg{position: relative;
+    background-color: black;
+    
+   }
+  #img5{
+    opacity:0.6;
+  }
+      hr{
+      color: black;
+      }
+     h1{width: 700px;
+      position: absolute;
+      display: block;
+      overflow-y:hidden ;
+      top:1fr;
+      margin-top: 120px;
+      margin-left: 25vw;
+      margin-right: 30vw;
+      margin-bottom: 150px;
+      line-height: 110px;
+      text-shadow: 2px 2px 15px white;
+      font-size: 50px;
+      font-family: 'La Belle Aurore', cursive;}
+       nav{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        animation:menu 3.5s ease-in-out infinite ;   
+        background-image:linear-gradient(-35deg,#313DE0 , #4750E0,  aqua, #E0BC31,  yellow ) ;
+        background-size: 300% 300%;
+       
+      }
+        @keyframes menu {
+        0%{
+          background-position: 0% 50%;
+        }
+        50%{
+          background-position: 100% 50%;
+        }
+        100%{
+          background-position: 0% 50%;
+        }
+      
+     } .img3{ 
+      width: 50px;
+      height: 40px;
+      margin: 0px 30px;
+     padding-top: 0px;
+     
+     }
+     .img2{
+      width: 50px;
+      height: 40px;
+      margin: 0px 30px;
+     padding-top: 0px;
+     
+    }
+     
+     .img {
+      height: 30px;
+      width: 80px;
+      margin-top: 19px;
+      margin-left: 15px;
+          }
+          
+     p{
+      
+      width: 50px;
+      margin:px;
+      padding-left: 25px;
+      padding-right: 10px;
+
+      text-align: center;
+      
+     } 
+     a{
+      text-decoration: none;
+      color: black;
+     }
+  
+    
+    span, img{
+      animation: is-boucing 1.5s  ease alternate infinite;
+    } .box , .sem > div{
+      width: 260px;
+      height: 370px;
+      box-shadow: 1px 1px 6px black;
+      border: 2px solid black;
+      border-radius: 0px 0px 15px;
+      overflow-y: hidden;
+      margin-bottom: 40px;
+      
+      background-color: white;
+    }
+    .box1 , .sem > .box{
+      width: 260px;
+      height: 370px;
+      box-shadow: 1px 1px 6px black;
+      border: 2px solid black;
+      border-radius: 0px 0px 15px 15px;
+      overflow-y: hidden;
+      margin-bottom: 40px;
+      background-color: white;}
+    main > div >.box2{
+      width: 260px;
+      height: 370px;
+      box-shadow: 1px 1px 6px black;
+      border: 2px solid black;
+      border-radius: 0px 0px 0px 15px;
+      overflow-y: hidden;
+      margin-bottom: 40px;
+      background-color: white;
+    }
+    .ordem1{
+      background-size:cover ;
+       width: 260px;
+       height: 185px;
+      margin-bottom: 0px;
+      padding: 0px 0px 0px;
+    
+      
+      } 
+       .ordem2{
+        background-size:cover ;
+        width: 260px;
+        height: 185px;
+        padding: 0px 0px 0px;
+      
+        
+      }
+      .ordem3{
+        background-size:cover ;
+        width: 260px;
+        height: 185px;
+        padding: 0px 0px 0px;}
+        main{
+background-image: linear-gradient( to right ,#17d1d185,  transparent);
+        }  
+      main > div , .sem > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       align-items: flex-start; 
+       overflow-y: auto;
+       } .box:hover{
+        animation-timing-function: ease-in-out;
+        transform: translate(-5px,0px);
+        cursor: pointer;}
+        .box1:hover{
+        animation-timing-function: ease-in-out;
+        transform: translate(-5px,0px);
+        cursor: pointer;}
+        .box2:hover{
+        animation-timing-function: ease-in-out;
+        transform: translate(-5px,0px);
+        cursor: pointer;}
+       span:hover{
+        cursor: pointer;
+       }
+       h3{
+      background-color: orange;
+        width: 115px;
+        text-align: center;
+        margin-left: 15px;
+        padding: 15px;
+        border: 2.5px solid black;
+        border-radius: 15px;
+        margin: 15px;
+        box-shadow: 1px 1px 5px black;
+        transform: translate(-5px,30px)- calc(100vw); } 
+        
+        h2{
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          padding-left: 15px ;
+        }
+   .esq{
+    float: left;
+   }
+  
+   .plane{
+   float: right;
+   } 
+   input{display: inline-block;
+    width: 200px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 5px;
+    }
+   
+    input:hover{
+      cursor: pointer;
+    }
+    .esqq{border-radius: 10px 0px 0px 10px;
+
+    }
+    svg{
+      margin-top: 5px;
+      background-color: #ffffff65;
+      border: 1px solid black;
+    }
+   div > span > p{
+    display: block;
+    color: black;
+    text-shadow: 1px 1px 5px rgba(128, 116, 17, 0.979);
+    text-align: center;
+      background-color: rgb(255, 238, 0);  
+      width: 112px;
+      padding-left: 10px;
+      margin-left: 52px; 
+      margin-top: 5px;
+      font-size: 30px;   
+    border-radius: 10px;
+    border: 0.1px solid black;
+   }
+   div > span > p:hover{
+    transform: translate(-5px,-2px);
+   }
+   div > span > p:active{
+    color:white;
+    transform: translate(-0px,-2px);
+    text-shadow: 1px 1px 5px black;
+   }
+   section > h1{text-align: center;}
+  section{
+    background: url(travel.jpg); 
+    width: 100vw;
+    height: 450px; 
+  margin: auto;
+  
+ background-position: center ;
+ background-size: cover;
+  }.sem2{
+    background: none;
+  }
+  .sem2 > div {display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: linear-gradient( to right ,#17d1d185,  transparent);}
+ 
+  .sem{display: flex;
+    justify-content: space-around;
+    background: none;
+    background-image: linear-gradient( to right ,#17d1d185,  transparent);
+  ;  
+  } .sem > div ,x1, .x2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 350px;}
+    .sem2 .x1 {
+      border-radius: 0px 0px 15px 15px;
+    }.sem2 .x2{
+      border-radius: 0px 0px 0px 15px;
+
+    } section > div > img{display: block;
+      background-size: cover;
+      height: 180px;
+      width: 100%;
+    }section > div {
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+     align-items: flex-start; 
+     overflow-y: auto;
+     margin: initial;
+     font-size: 22px;
+    }
+div > p{
+  width: 195px;
+  font-size: 25px;
+} div > .enfeite{
+  text-decoration: line-through;
+  transform: translate(0px, -5px);}
+ .borda2{display: block;
+  text-align: center;
+ 
+  background-color: black;
+  color: white;
+ }
+ h4{width: 250px;
+  background-color: darkgray;
+  padding: 10px;
+  text-align: center;
+  transform: translate(0px, -18px);
+ }
+ 
+ footer{
+  height: 100vh; }
+ }
